@@ -143,7 +143,6 @@ void search(void)
                     printf("%s              %s              %s           %0.2lf             %d\n\n",train[i].name,train[i].dep,train[i].arr,train[i].price,train[i].cap);
                     found=1;
                 }
-
             }
 
             if(found!=1)
@@ -151,14 +150,7 @@ void search(void)
                 printf("\n\n***<<< Sorry,There is no train found... >>>***\n\n");
 
             }
-
-
         }
-
-
-
-
-
     }
 
     else if(ch=='B')
@@ -205,4 +197,3 @@ void search(void)
     }
 
 }
-
